@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'USB';
+  age = 27;
+  ButtonClicked() {
+    console.log("test");
+    
+  }
 }
